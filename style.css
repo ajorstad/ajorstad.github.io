@@ -1,6 +1,13 @@
 body {
-   background-color: #506464;  /* rgb(80 100 100); */
-   font-family: "Times New Roman";
+  padding-top: 20px;
+  background-color: #506464;  /* rgb(80 100 100); */
+  font-family: "Times New Roman";
+}
+
+.container {
+  padding: 20px;
+  width: 950px;
+  background-color: #ffffff;
 }
 
 table {
@@ -17,7 +24,7 @@ td.header {
 }
 
 td.navelt {
-   height: 30px;
+   height: 40px;
    width: 120px;
    font-size: 12pt; 
    font-weight: bold;
@@ -34,10 +41,13 @@ td.body1 {
   border-collapse: collapse;
 }
 
+div.navstyle {
+  width: 950px;
+}
 
 div.navstyle a {
    font-family: "Times New Roman";
-   font-size: 12pt; 
+   font-size: 16pt;
    text-align: center;
    color: #3C5050;
    border: none;
@@ -45,43 +55,11 @@ div.navstyle a {
 }
 
 div.navstyle a:hover {
-   font-size: 14pt; 
+   font-size: 18pt; 
    font-weight: bold;
    color: #3C5050;
    text-decoration: none;
    border-bottom:0px;
 }
 
-div.body1 a {
-   font-family: "Times New Roman";
-   font-size: 12pt; 
-   text-align: center;
-   color: #289682;  /* rgb(40 150 130); */
-   font-weight: bold;
-   border: medium none;
-   text-decoration: none;
-}
-div.body1 a:hover {
-   text-decoration: none;
-   font-weight: bold;
-   border-bottom:1px solid #289682;
-   color: #289682;
-}
 
-div.h1 { 
-   font-family: "Times New Roman";
-   padding-top: 10px;
-   padding-bottom: 10px;
-   font-size: 24pt; 
-   font-weight: bold;
-   color: black; 
-}
-
-div.h2 { 
-   font-family: "Times New Roman";
-   padding-top: 10px;
-   padding-bottom: 10px;
-   font-size: 16pt; 
-   font-style: italic;
-   color: black; 
-}
