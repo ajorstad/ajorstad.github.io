@@ -63,3 +63,28 @@ div.navstyle a:hover {
 }
 
 
+
+
+.wrapper {
+  /*display:table-cell;*/
+  vertical-align:middle;
+}
+
+.block {
+  display: inline-block;
+  vertical-align: middle
+}
+
+.r_im {
+  width: 34%;
+  text-align: center;
+  
+}
+
+.r_text {
+  width: 65%;
+}
+
+hr {
+  border-top: 1px solid #dddddd;
+}
