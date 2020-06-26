@@ -72,13 +72,12 @@ div.navstyle a:hover {
 
 .block {
   display: inline-block;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 .r_im {
   width: 34%;
   text-align: center;
-  
 }
 
 .r_text {
